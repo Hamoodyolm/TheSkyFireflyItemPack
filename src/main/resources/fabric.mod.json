@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "theskyfireflyitempack",
+	"version": "${version}",
+	"name": "TheSkyFireflyItemPack",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/theskyfireflyitempack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hamoodyolm.theskyfireflyitempack.TheSkyFireflyItemPack"
+		],
+		"client": [
+			"hamoodyolm.theskyfireflyitempack.TheSkyFireflyItemPackClient"
+		]
+	},
+	"mixins": [
+		"theskyfireflyitempack.mixins.json",
+		{
+			"config": "theskyfireflyitempack.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

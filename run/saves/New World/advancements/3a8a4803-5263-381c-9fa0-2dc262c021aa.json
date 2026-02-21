@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-24 19:27:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-11-24 19:29:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-11-24 19:29:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_taiga": "2025-11-24 19:27:27 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 4556
+}

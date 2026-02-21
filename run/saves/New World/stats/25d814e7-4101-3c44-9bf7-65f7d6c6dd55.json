@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "theskyfireflyitempack:guidite_sword": 1
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 568,
+      "minecraft:walk_one_cm": 63,
+      "minecraft:total_world_time": 636,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 7546,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 85,
+      "minecraft:walk_on_water_one_cm": 68,
+      "minecraft:play_time": 568,
+      "minecraft:damage_dealt": 200,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 568
+    },
+    "minecraft:picked_up": {
+      "minecraft:arrow": 2,
+      "minecraft:bone": 2
+    }
+  },
+  "DataVersion": 4671
+}

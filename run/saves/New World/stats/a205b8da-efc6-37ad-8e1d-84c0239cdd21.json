@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "theskyfireflyitempack:fireflies_edge": 9
+    },
+    "minecraft:killed": {
+      "minecraft:iron_golem": 3
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2976,
+      "minecraft:time_since_rest": 2718,
+      "minecraft:walk_one_cm": 4511,
+      "minecraft:total_world_time": 2743,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 23055,
+      "minecraft:mob_kills": 3,
+      "minecraft:play_time": 2718,
+      "minecraft:damage_dealt": 3000,
+      "minecraft:jump": 20,
+      "minecraft:time_since_death": 2718
+    }
+  },
+  "DataVersion": 4671
+}

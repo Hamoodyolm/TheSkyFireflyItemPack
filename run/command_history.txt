@@ -1,0 +1,13 @@
+/give @s minecraft:lily_of_the_valley
+/give @s theskyfireflyitempack:chaos_orb
+/time set day
+/enchant @s theskyfireflyitempack:valorous_wrath 6
+/enchant @s theskyfireflyitempack:valorous_wrath 5
+/enchant @s theskyfireflyitempack:mesial_blade
+/enchant @s theskyfireflyitempack:mesial_blade 1
+/enchant @s theskyfireflyitempack:valorous_wrath
+/enchant @s theskyfireflyitempack:valorous_wrath 6
+/enchant @s theskyfireflyitempack:equilateral_blade 6
+/enchant @s theskyfireflyitempack:onslaughts_ambush 6
+/enchant @s theskyfireflyitempack:onslaughts_ambush 5
+/summon minecraft:iron_golem

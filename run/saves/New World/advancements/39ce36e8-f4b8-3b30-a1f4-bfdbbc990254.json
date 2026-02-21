@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-15 19:40:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-02-15 19:40:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_beach": "2026-02-15 19:40:39 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 4671
+}
