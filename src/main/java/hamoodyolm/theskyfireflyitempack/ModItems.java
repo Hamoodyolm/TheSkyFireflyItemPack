@@ -8,7 +8,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 
 import java.util.function.Function;
 
@@ -36,20 +35,17 @@ public class ModItems {
             Item::new,
             new Item.Properties().sword(ToolMaterials.CHAOS_TOOL_MATERIAL, 1f, -2.4f)
     );
-
-
-    public static void initialize() {
+    public static void initialize()
+    {
         // Get the event for modifying entries in the ingredients group.
 // And register an event handler that adds our suspicious item to the ingredients group.
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
-                .register((itemGroup) -> itemGroup.accept(ModItems.CHAOS_ORB));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
                 .register((itemGroup) -> itemGroup.accept(ModItems.CHAOS_SHARD));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
+                .register((itemGroup) -> itemGroup.accept(ModItems.CHAOS_ORB));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT)
                 .register((itemGroup) -> itemGroup.accept(ModItems.FIREFLIES_EDGE));
-
-
     }
-    // Get the event for modifying entries in the ingredients group.
-// And register an event handler that adds our suspicious item to the ingredients group.
 }
+
+

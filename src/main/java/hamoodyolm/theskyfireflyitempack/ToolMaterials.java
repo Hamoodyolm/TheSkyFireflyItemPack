@@ -16,4 +16,12 @@ public class ToolMaterials {
             22,
             ChaosArmorMaterials.REPAIRS_CHAOS_ARMOR
     );
+    public static final ToolMaterial EQUILIBRIUM_TOOL_MATERIAL = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_WOODEN_TOOL,
+            2885,
+            9.0F,
+            7.0F,
+            22,
+            ChaosArmorMaterials.REPAIRS_CHAOS_ARMOR
+    );
 }

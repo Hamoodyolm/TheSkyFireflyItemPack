@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685ffae8-8b1a-41df-ba0c-5300997a7cee" name="Changes" comment="" />
+    <list default="true" id="685ffae8-8b1a-41df-ba0c-5300997a7cee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hamoodyolm/theskyfireflyitempack/EquilibriumArmorMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hamoodyolm/theskyfireflyitempack/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hamoodyolm/theskyfireflyitempack/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hamoodyolm/theskyfireflyitempack/ToolMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hamoodyolm/theskyfireflyitempack/ToolMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/theskyfireflyitempack/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/theskyfireflyitempack/lang/en_us.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +65,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-6227aad8ee/1.21.10-loom.mappings.1_21_10.layered+hash.2198-v2/minecraft-common-6227aad8ee-1.21.10-loom.mappings.1_21_10.layered+hash.2198-v2-sources.jar!/net/minecraft/world/item/Item.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-6227aad8ee/1.21.10-loom.mappings.1_21_10.layered+hash.2198-v2/minecraft-common-6227aad8ee-1.21.10-loom.mappings.1_21_10.layered+hash.2198-v2-sources.jar!/net/minecraft/world/item/MaceItem.java" root0="FORCE_HIGHLIGHTING" />
@@ -75,29 +84,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Minecraft Client.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [build].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [genCommonSourcesWithCfr].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [genCommonSourcesWithFernFlower].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [genCommonSourcesWithVineflower].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [genSourcesWithCfr].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [genSourcesWithFernFlower].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [genSourcesWithVineflower].executor": "Run",
-    "Gradle.TheSkyFireflyItemPack [genSources].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/coding_projects/TheSkyFireflyItemPack",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [genCommonSourcesWithCfr].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [genCommonSourcesWithFernFlower].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [genCommonSourcesWithVineflower].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [genSourcesWithCfr].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [genSourcesWithFernFlower].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [genSourcesWithVineflower].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheSkyFireflyItemPack [genSources].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/coding_projects/TheSkyFireflyItemPack&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\coding_projects\TheSkyFireflyItemPack\src\main\resources\data\theskyfireflyitempack\enchantment" />
@@ -107,6 +118,9 @@
       <recent name="C:\coding_projects\TheSkyFireflyItemPack\src\main\resources\data\" />
       <recent name="C:\coding_projects\TheSkyFireflyItemPack\src\main\resources\data\theskyfireflyitempack\tags\enchantable" />
       <recent name="C:\coding_projects\TheSkyFireflyItemPack\src\main\resources\data\theskyfireflyitempack\" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hamoodyolm.theskyfireflyitempack" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.TheSkyFireflyItemPack [build]">
