@@ -1,5 +1,6 @@
 package hamoodyolm.theskyfireflyitempack;
 
+import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -27,24 +28,39 @@ public class ModItems {
 
     }
 
-
+    // This is just registering the items
     public static final Item CHAOS_ORB = register("chaos_orb", Item::new, new Item.Properties());
     public static final Item CHAOS_SHARD = register("chaos_shard", Item::new, new Item.Properties());
     public static final Item FIREFLIES_EDGE = register(
             "fireflies_edge",
-            Item::new,
+            FirefliesEdge::new,
             new Item.Properties().sword(ToolMaterials.CHAOS_TOOL_MATERIAL, 1f, -2.4f)
     );
+    public static final Item UNITY_BLADE = register(
+            "unity_blade",
+            Item::new,
+            new Item.Properties().sword(ToolMaterials.EQUILIBRIUM_TOOL_MATERIAL, 1f, -2.4f)
+    );
+    public static final Item FIREFLIES_SOUL = register("fireflies_soul", Item::new, new Item.Properties());;
     public static void initialize()
     {
         // Get the event for modifying entries in the ingredients group.
 // And register an event handler that adds our suspicious item to the ingredients group.
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
                 .register((itemGroup) -> itemGroup.accept(ModItems.CHAOS_SHARD));
+
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
                 .register((itemGroup) -> itemGroup.accept(ModItems.CHAOS_ORB));
+
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT)
                 .register((itemGroup) -> itemGroup.accept(ModItems.FIREFLIES_EDGE));
+
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT)
+                .register((itemGroup) -> itemGroup.accept(ModItems.UNITY_BLADE));
+
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT)
+                .register((itemGroup) -> itemGroup.accept(ModItems.FIREFLIES_SOUL));
+
     }
 }
 
